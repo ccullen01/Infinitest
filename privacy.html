@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .title {
+            font-size: 32px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .lang-btn {
+            padding: 12px 30px;
+            border: 2px solid white;
+            border-radius: 30px;
+            background: transparent;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .lang-btn:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .lang-btn.active {
+            background: white;
+            color: #667eea;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .section-content {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .section-content p {
+            margin-bottom: 12px;
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        
+        .update-date {
+            text-align: center;
+            color: #999;
+            font-size: 13px;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .cn, .en {
+            display: none;
+        }
+        
+        .cn.show, .en.show {
+            display: block;
+        }
+        
+        @media (max-width: 600px) {
+            .content {
+                padding: 25px;
+            }
+            .title {
+                font-size: 24px;
+            }
+            .section-title {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">高考英语AI命题助手</h1>
+            <div class="lang-switch">
+                <button class="lang-btn active" onclick="switchLang('cn')">中文</button>
+                <button class="lang-btn" onclick="switchLang('en')">English</button>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- 中文版本 -->
+            <div class="cn show">
+                <div class="section">
+                    <h2 class="section-title">信息收集</h2>
+                    <div class="section-content">
+                        <p>我们严格保护您的隐私。本应用收集的信息仅用于提升服务质量，包括：</p>
+                        <p>• 您主动输入的题目要求和配置信息</p>
+                        <p>• 应用使用过程中的基本操作数据</p>
+                        <p>• 本地存储的题库和命题记录</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">数据存储</h2>
+                    <div class="section-content">
+                        <p>• 所有题目数据默认存储在您的设备本地</p>
+                        <p>• API密钥等信息仅保存在本地，不会上传至任何服务器</p>
+                        <p>• 您可以随时清除应用内的所有数据</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">AI服务</h2>
+                    <div class="section-content">
+                        <p>• 应用使用第三方AI服务（如DeepSeek等）处理命题请求</p>
+                        <p>• 您输入的题目要求会被发送至AI服务提供商</p>
+                        <p>• 请参考各AI服务商的隐私政策了解其数据处理方式</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">数据安全</h2>
+                    <div class="section-content">
+                        <p>• 我们采用行业标准的安全措施保护您的数据</p>
+                        <p>• 应用不会向第三方出售或泄露您的个人信息</p>
+                        <p>• API密钥等敏感信息使用安全存储机制</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">用户权利</h2>
+                    <div class="section-content">
+                        <p>• 您有权随时查看、修改或删除您的数据</p>
+                        <p>• 您可以清除应用内的所有内容</p>
+                        <p>• 如有任何隐私问题，欢迎通过App Store评论联系我们</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">政策更新</h2>
+                    <div class="section-content">
+                        <p>我们可能会不时更新本隐私政策。任何重大变更都会在应用内通知。请定期查看以了解最新信息。</p>
+                    </div>
+                </div>
+                
+                <div class="update-date">
+                    最后更新：2025年1月
+                </div>
+            </div>
+            
+            <!-- 英文版本 -->
+            <div class="en">
+                <div class="section">
+                    <h2 class="section-title">Information Collection</h2>
+                    <div class="section-content">
+                        <p>We strictly protect your privacy. The information collected by this app is only used to improve service quality, including:</p>
+                        <p>• Question requirements and configuration information you actively input</p>
+                        <p>• Basic operation data during app usage</p>
+                        <p>• Locally stored question banks and generation records</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">Data Storage</h2>
+                    <div class="section-content">
+                        <p>• All question data is stored locally on your device by default</p>
+                        <p>• API keys and similar information are saved locally only, never uploaded to any server</p>
+                        <p>• You can clear all data in the app at any time</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">AI Services</h2>
+                    <div class="section-content">
+                        <p>• The app uses third-party AI services (such as DeepSeek) to process question generation requests</p>
+                        <p>• Your question requirements will be sent to AI service providers</p>
+                        <p>• Please refer to each AI service provider's privacy policy for their data handling practices</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">Data Security</h2>
+                    <div class="section-content">
+                        <p>• We use industry-standard security measures to protect your data</p>
+                        <p>• The app will not sell or leak your personal information to third parties</p>
+                        <p>• Sensitive information such as API keys uses secure storage mechanisms</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">User Rights</h2>
+                    <div class="section-content">
+                        <p>• You have the right to view, modify, or delete your data at any time</p>
+                        <p>• You can clear all content in the app</p>
+                        <p>• If you have any privacy concerns, feel free to contact us through App Store reviews</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">Policy Updates</h2>
+                    <div class="section-content">
+                        <p>We may update this privacy policy from time to time. Any significant changes will be notified within the app. Please check regularly for the latest information.</p>
+                    </div>
+                </div>
+                
+                <div class="update-date">
+                    Last Updated: January 2025
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function switchLang(lang) {
+            const cn = document.querySelector('.cn');
+            const en = document.querySelector('.en');
+            const btns = document.querySelectorAll('.lang-btn');
+            
+            btns.forEach(btn => btn.classList.remove('active'));
+            
+            if (lang === 'cn') {
+                cn.classList.add('show');
+                en.classList.remove('show');
+                btns[0].classList.add('active');
+            } else {
+                en.classList.add('show');
+                cn.classList.remove('show');
+                btns[1].classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
