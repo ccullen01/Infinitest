@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - 使用条款</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .title {
+            font-size: 32px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .lang-btn {
+            padding: 12px 30px;
+            border: 2px solid white;
+            border-radius: 30px;
+            background: transparent;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .lang-btn:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .lang-btn.active {
+            background: white;
+            color: #667eea;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .section-content {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .section-content p {
+            margin-bottom: 12px;
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        
+        .update-date {
+            text-align: center;
+            color: #999;
+            font-size: 13px;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .cn, .en {
+            display: none;
+        }
+        
+        .cn.show, .en.show {
+            display: block;
+        }
+        
+        .contact-link {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .content {
+                padding: 25px;
+            }
+            .title {
+                font-size: 24px;
+            }
+            .section-title {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">高考英语AI命题助手</h1>
+            <div class="lang-switch">
+                <button class="lang-btn active" onclick="switchLang('cn')">中文</button>
+                <button class="lang-btn" onclick="switchLang('en')">English</button>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- 中文版本 -->
+            <div class="cn show">
+                <div class="section">
+                    <h2 class="section-title">1. 服务说明</h2>
+                    <div class="section-content">
+                        <p>「高考英语AI命题助手」是一款帮助英语教师快速生成试题和教案的辅助工具。</p>
+                        <p>使用本应用即表示您同意遵守本使用条款的所有内容。我们保留随时修改本条款的权利，修改后的条款将在此页面公布。</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">2. API服务</h2>
+                    <div class="section-content">
+                        <p>本应用使用第三方AI服务（如DeepSeek等）来处理您的命题和教案生成请求。</p>
+                        <p><strong>重要说明：</strong></p>
+                        <p>• 您需要拥有自己的AI服务商账户和API密钥</p>
+                        <p>• AI服务的费用由您直接向AI服务商支付，与本应用无关</p>
+                        <p>• 您需遵守所使用AI服务商的服务条款和费用政策</p>
+                        <p>• 本应用不对AI生成内容的准确性、完整性负责</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">3. 用户责任</h2>
+                    <div class="section-content">
+                        <p>使用本应用时，您同意：</p>
+                        <p>• 不使用本应用生成违法、有害、侵权的内容</p>
+                        <p>• 不利用本应用从事任何违法活动</p>
+                        <p>• 对使用AI生成的内容承担相应责任</p>
+                        <p>• 妥善保管您的API密钥和账户信息</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">4. 订阅服务</h2>
+                    <div class="section-content">
+                        <p>本应用提供付费订阅服务以解锁高级功能：</p>
+                        <p>• 订阅由Apple进行管理和收费</p>
+                        <p>• 订阅可在iPhone设置中随时取消</p>
+                        <p>• 取消订阅后，当前订阅期内仍可使用，到期后功能将受限</p>
+                        <p>• 已支付的费用不予退还（除非法律另有规定）</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">5. 知识产权</h2>
+                    <div class="section-content">
+                        <p>• 本应用及其内容的知识产权归开发者所有</p>
+                        <p>• AI生成的内容版权归您所有，但需遵守相关法律法规</p>
+                        <p>• 未经许可，不得对本应用进行反编译、逆向工程或修改</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">6. 免责声明</h2>
+                    <div class="section-content">
+                        <p>本应用按「现状」提供，不提供任何明示或暗示的保证。</p>
+                        <p>对于以下情况，我们不承担任何责任：</p>
+                        <p>• AI生成内容的准确性、适用性</p>
+                        <p>• AI服务商的任何行为或服务中断</p>
+                        <p>• 因使用本应用而造成的任何直接或间接损失</p>
+                        <p>• 用户因违反本条款而造成的任何损失</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">7. 服务变更</h2>
+                    <div class="section-content">
+                        <p>我们保留随时修改或中断服务的权利，恕不另行通知。对于服务的任何重大变更，我们将尽量在应用内通知用户。</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">8. 联系我们</h2>
+                    <div class="section-content">
+                        <p>如对本条款有任何疑问，欢迎联系我们：</p>
+                        <p>邮箱：<a href="mailto:ccullen@qq.com" class="contact-link">ccullen@qq.com</a></p>
+                        <p>我们将在合理时间内回复您的邮件。</p>
+                    </div>
+                </div>
+                
+                <div class="update-date">
+                    最后更新：2025年1月<br>
+                    版本号：v1.0
+                </div>
+            </div>
+            
+            <!-- 英文版本 -->
+            <div class="en">
+                <div class="section">
+                    <h2 class="section-title">1. Service Description</h2>
+                    <div class="section-content">
+                        <p>"Gaokao English AI Question Generator" is a tool designed to help English teachers quickly generate exam questions and lesson plans.</p>
+                        <p>By using this app, you agree to abide by all contents of these Terms of Service. We reserve the right to modify these terms at any time, and the modified terms will be posted on this page.</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">2. API Services</h2>
+                    <div class="section-content">
+                        <p>This app uses third-party AI services (such as DeepSeek, etc.) to process your question generation and lesson plan requests.</p>
+                        <p><strong>Important:</strong></p>
+                        <p>• You need your own AI service provider account and API key</p>
+                        <p>• AI service fees are paid directly by you to the AI service provider, unrelated to this app</p>
+                        <p>• You must comply with the terms of service and fee policies of the AI service provider you use</p>
+                        <p>• This app is not responsible for the accuracy or completeness of AI-generated content</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">3. User Responsibilities</h2>
+                    <div class="section-content">
+                        <p>When using this app, you agree to:</p>
+                        <p>• Not generate illegal, harmful, or infringing content</p>
+                        <p>• Not use this app for any illegal activities</p>
+                        <p>• Take responsibility for any content generated by AI that you use</p>
+                        <p>• Properly protect your API keys and account information</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">4. Subscription Services</h2>
+                    <div class="section-content">
+                        <p>This app offers paid subscription services to unlock premium features:</p>
+                        <p>• Subscriptions are managed and billed by Apple</p>
+                        <p>• Subscriptions can be cancelled anytime in iPhone Settings</p>
+                        <p>• After cancellation, you can still use features until the end of the current subscription period</p>
+                        <p>• Paid fees are non-refundable (unless otherwise required by law)</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">5. Intellectual Property</h2>
+                    <div class="section-content">
+                        <p>• The intellectual property rights of this app and its content belong to the developer</p>
+                        <p>• The copyright of AI-generated content belongs to you, subject to relevant laws and regulations</p>
+                        <p>• Without permission, you shall not decompile, reverse engineer, or modify this app</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">6. Disclaimer</h2>
+                    <div class="section-content">
+                        <p>This app is provided "AS IS" without any express or implied warranties.</p>
+                        <p>We are not responsible for:</p>
+                        <p>• The accuracy or applicability of AI-generated content</p>
+                        <p>• Any actions or service interruptions by AI service providers</p>
+                        <p>• Any direct or indirect losses caused by using this app</p>
+                        <p>• Any losses caused by your violation of these terms</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">7. Service Changes</h2>
+                    <div class="section-content">
+                        <p>We reserve the right to modify or interrupt services at any time without prior notice. For significant changes to services, we will try our best to notify users within the app.</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title">8. Contact Us</h2>
+                    <div class="section-content">
+                        <p>If you have any questions about these terms, feel free to contact us:</p>
+                        <p>Email: <a href="mailto:ccullen@qq.com" class="contact-link">ccullen@qq.com</a></p>
+                        <p>We will respond to your emails within a reasonable time.</p>
+                    </div>
+                </div>
+                
+                <div class="update-date">
+                    Last Updated: January 2025<br>
+                    Version: v1.0
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function switchLang(lang) {
+            const cn = document.querySelector('.cn');
+            const en = document.querySelector('.en');
+            const btns = document.querySelectorAll('.lang-btn');
+            
+            btns.forEach(btn => btn.classList.remove('active'));
+            
+            if (lang === 'cn') {
+                cn.classList.add('show');
+                en.classList.remove('show');
+                btns[0].classList.add('active');
+                document.documentElement.lang = 'zh-CN';
+            } else {
+                en.classList.add('show');
+                cn.classList.remove('show');
+                btns[1].classList.add('active');
+                document.documentElement.lang = 'en';
+            }
+        }
+    </script>
+</body>
+</html>
